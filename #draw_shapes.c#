@@ -29,9 +29,7 @@ void print_triangle(int leftCol, int size)
 // Prints a arrow
 void print_arrow(int leftCol, int size)
 {
-  //uses the print triangle to first print the arrow-head
-  //then prints the square to print the arrow-body
-  //square is shifted 3 columns left so that it centers with the arrow-head
   print_triangle(leftCol, size);
-  print_square(leftCol+3, size);
+  print_square(leftCol+3
+	       , size);
 }
